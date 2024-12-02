@@ -1,0 +1,128 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and fonts */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f0f4f3;
+  color: #333;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #2e5930;
+  color: #fff;
+}
+
+.header h1 {
+  font-size: 1.8rem;
+}
+
+.nav a {
+  margin-left: 1rem;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  height: 80vh;
+  background: url('https://source.unsplash.com/1600x900/?jungle') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-text h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background-color: #ff9900;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #cc7a00;
+}
+
+/* Content Section */
+.content {
+  padding: 2rem;
+  text-align: center;
+  background-color: #f8fdf6;
+}
+
+.content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #2e5930;
+  color: #fff;
+}
+
+/* Jungle-Themed Background */
+.hero {
+  height: 80vh;
+  background: url('A_detailed_and_immersive_jungle_scene,_featuring_t.png') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+/* Java Jungle Hero Section */
+.hero-java {
+  height: 80vh;
+  background: url('java_jungle_tree.png') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-java .hero-text h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-java .hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}

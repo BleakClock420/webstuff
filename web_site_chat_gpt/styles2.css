@@ -1,0 +1,65 @@
+/* Reset and Body (No Change) */
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #2e5930;
+    color: #fff;
+}
+
+.nav a {
+    margin-left: 1rem;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* Hero Section for Java Jungle */
+.hero-java {
+    height: 80vh;
+    background: url('java_jungle_tree.png') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-java .hero-text h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-java .hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero-java .btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.hero-java .btn:hover {
+    background-color: #cc7a00;
+}
+
+/* Content Section (No Change) */
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #2e5930;
+    color: #fff;
+  }
